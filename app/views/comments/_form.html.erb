@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-
+  <%= f.hidden_field 'account[supplier_id]', value: supplier %>
   <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name %>
